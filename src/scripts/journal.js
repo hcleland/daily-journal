@@ -68,19 +68,12 @@ const displayEntry = document.querySelector(".entryLog")
 const renderJournalEntries = (entries) => {
     journalEntries.forEach(entry => {
         displayEntry.innerHTML += `
-        <form action="">
-        <fieldset class="container">
-            <label for="journalDate">Date of entry</label>
-            <input type="date" name="journalDate" id="journalDate">${entry.date}
-        </fieldset>
-        <p>${entry.conceptsCovered}</p>
-        <p>${entry.content}</p>
-        <p>${entry.mood}</p>
-        <fieldset class="container">
-        <label for="conceptsCovered">Concepts covered</label>
-        <input type="text" name="conceptsCovered" id="conceptsCovered">${entry.conceptsCovered}
-        </fieldset>
-        </form>
+        <div>
+        <p>Date: ${entry.date}</p>
+        <p>Concepts Covered: ${entry.conceptsCovered}</p>
+        <p>Journal Entry: ${entry.content}</p>
+        <p>Mood: ${entry.mood}</p>
+        </div>
         `
     })
 };
