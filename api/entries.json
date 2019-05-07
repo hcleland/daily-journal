@@ -1,0 +1,22 @@
+{
+    "journalEntries": [
+        {
+            "date": "04/10/2019",
+            "conceptsCovered": "JS querySelector & querySelectorAll",
+            "content": "Practiced querySelector and querySelectorAll. querySelector will only choose the first element that it finds. querySelectorAll will find all the elements. I had to use a for loop during the exercises using querySelectorAll. 'The document.querySelector() method allows you to identify the first element that matches the CSS selector you specify.' 'If you want to get a list of all components that match your selector, you need to use the document.querySelectorAll() method.' ",
+            "mood": "fine"
+        },
+        {
+            "date": "April 17, 2019",
+            "conceptsCovered": "Lots of stuff",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "mood": "super"
+        },
+        {
+            "date": "April 24, 2019",
+            "conceptsCovered": "Lots more stuff",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "mood": "super duper"
+        }
+    ]
+}
